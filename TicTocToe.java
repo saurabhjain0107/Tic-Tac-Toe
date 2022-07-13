@@ -36,8 +36,8 @@ public class TicTocToe {
     public static void main(String[] args) {
         System.out.println("Welcome to Tic Tac Toe Game !");
         createBoard(board);
-        showBoard(board);
         System.out.println("Player Choice is "+playerChoice());
         System.out.println("Computer Choice is "+computerChoice());
+        showBoard(board);
     }
 }
